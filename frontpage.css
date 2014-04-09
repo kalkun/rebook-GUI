@@ -14,18 +14,50 @@ body
 	padding-left: 50px;
 }
 
-.topbar .logo 
-{
-	background-image: url('resources/logo.ico');
-	width: 48px;
-	height: 100%;
-	float: left;
-}
+	.topbar .logo 
+	{
+		background-image: url('resources/logo.ico');
+		width: 48px;
+		height: 100%;
+		float: left;
+	}
 
-.topbar .brand 
-{
-	display: inline;
-	float: left;
-	margin-top: 12px;
-	margin-left: 10px;
-}
+	.topbar .brand 
+	{
+		display: inline;
+		float: left;
+		margin-top: 12px;
+		margin-left: 10px;
+	}
+
+	.topbar .find 
+	{
+		display: inline;
+		float: left;
+		margin-top: 12px;
+		margin-left: 10px;
+	}
+
+	.topbar .sell 
+	{
+		display: inline;
+		float: left;
+		margin-top: 12px;
+		margin-left: 10px;
+	}
+
+	.topbar .about 
+	{
+		display: inline;
+		float: left;
+		margin-top: 12px;
+		margin-left: 10px;
+	}
+
+	.topbar .bugs 
+	{
+		display: inline;
+		float: left;
+		margin-top: 12px;
+		margin-left: 10px;
+	}

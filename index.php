@@ -13,12 +13,16 @@
 				reBOOK
 			</div>
 			<div class="find">
+				FIND
 			</div>
 			<div class="sell">
+				SELL
 			</div>
 			<div class="about">
+				ABOUT
 			</div>
 			<div class="bugs">
+				BUGS
 			</div>
 			<div class="searchfield">
 			</div>
