@@ -1,0 +1,19 @@
+.tile-row
+{
+	display: table;
+	margin: auto;
+}
+
+.tile-row .tile
+{
+	float: left;
+	width: 300px;
+}
+
+.tile .title
+{
+	color: gray;
+	font-size: 20px;
+	text-align: center;
+	text-overflow:ellipsis;
+}
