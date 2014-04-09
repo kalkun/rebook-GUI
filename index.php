@@ -3,12 +3,15 @@
 <title>ReBook</title>
 <link rel="shortcut icon" href="/resources/icons/logo.ico"/>
 	<head>
-		<link rel="stylesheet" type="text/css" href="rebook.css">
+		<link rel="stylesheet" type="text/css" href="frontpage.css">
 		<link rel="stylesheet" type="text/css" href="modal.css">
 	</head>
 	<body>
 		<div class="topbar">
+			<div class="logo">
+			</div>
 			<div class="brand">
+				reBOOK
 			</div>
 			<div class="find">
 			</div>

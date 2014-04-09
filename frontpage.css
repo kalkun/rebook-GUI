@@ -1,0 +1,31 @@
+body 
+{
+	margin: 0;
+	font-family: helvetica, georgia, times;
+	color: white;
+}
+.topbar
+{
+	margin-top: 0;
+	border: 0;
+	width:1024px;
+	height: 48px;
+	background-color: #414A4C;
+	padding-left: 50px;
+}
+
+.topbar .logo 
+{
+	background-image: url('resources/logo.ico');
+	width: 48px;
+	height: 100%;
+	float: left;
+}
+
+.topbar .brand 
+{
+	display: inline;
+	float: left;
+	margin-top: 12px;
+	margin-left: 10px;
+}
