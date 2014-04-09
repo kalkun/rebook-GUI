@@ -136,20 +136,17 @@ body
 
 .banner .buttons>div
 {
-	width: 300px;
+	width: 350px;
 }
 
 .banner .find
 {
 	float: left;
-	margin-right: 50px;
 }
 
 .banner .sell
 {
 	float: right;
-	margin-left: 50px;
-
 }
 
 
