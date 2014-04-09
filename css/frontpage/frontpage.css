@@ -24,7 +24,7 @@ body
 
 .topbar .logo 
 {
-	background-image: url('resources/logo.ico');
+	background-image: url('../../resources/logo.ico');
 	width: 48px;
 	height: 100%;
 	float: left;
@@ -91,7 +91,7 @@ body
 .topbar .edit 
 {
 	display: inline;
-	background-image: url('resources/edit.png');
+	background-image: url('../../resources/edit.png');
 	width: 26px;
 	height: 26px;
 	float: left;
@@ -102,7 +102,7 @@ body
 .banner 
 {
 	height: 300px;
-	background-image: url('resources/img/baggrund.jpg');
+	background-image: url('../../resources/img/baggrund.jpg');
 	background-size: cover;
 	background-repeat:no-repeat;
 	padding-top: 50px;
