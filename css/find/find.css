@@ -1,0 +1,38 @@
+.banner input 
+{
+	display: block;
+	margin: auto;
+	width: 50%;
+	height: 25px;
+	padding: 2px;
+	margin-top: 70px;
+	background: url('../../resources/search.png') no-repeat right center; 
+	background-color: white;
+}
+
+.banner input img
+{
+	float: right;
+}
+
+.subbar
+{
+	margin: auto;
+	height: 48px;
+	background-color: #414A4C;
+
+	color: white;
+}
+
+.subbar .poptitle
+{
+	padding-left: 20px;
+}
+
+.subbar .poptitle, .subbar .popular
+{
+	display: inline;
+	float: left;
+	margin-top: 12px;
+	margin-left: 50px;
+}
