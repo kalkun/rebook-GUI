@@ -1187,6 +1187,12 @@
 				</div>
 			</div>
 		</div>
+		<div class="handshake-field">
+			<div>
+				<input type="text" placeholder="Subject">
+				<textarea placeholder=""></textarea>
+			</div>
+		</div>
 	</div>
 </div>
 </div>
