@@ -157,58 +157,62 @@
 				<button>HANDSHAKE</button>
 			</div>
 		</div>
-		<div class="tile">
-			<div class="title">
-				Java Setup
+		<div class="cleafix"></div>
+		<div class="tile-row">
+			<div class="tile">
+				<div class="title">
+					Java Setup
+				</div>
+				<div class="thumb">
+					<img src="">
+				</div>
+				<div class="price">
+					295 DKK
+				</div>
+				<div class="info">
+					<button>INFO</button>
+				</div>
+				<div class="handshake">
+					<button>HANDSHAKE</button>
+				</div>
 			</div>
-			<div class="thumb">
-				<img src="">
+			<div class="tile">
+				<div class="title">
+					Java Setup
+				</div>
+				<div class="thumb">
+					<img src="">
+				</div>
+				<div class="price">
+					295 DKK
+				</div>
+				<div class="info">
+					<button>INFO</button>
+				</div>
+				<div class="handshake">
+					<button>HANDSHAKE</button>
+				</div>
 			</div>
-			<div class="price">
-				295 DKK
-			</div>
-			<div class="info">
-				<button>INFO</button>
-			</div>
-			<div class="handshake">
-				<button>HANDSHAKE</button>
-			</div>
-		</div>
-		<div class="tile">
-			<div class="title">
-				Java Setup
-			</div>
-			<div class="thumb">
-				<img src="">
-			</div>
-			<div class="price">
-				295 DKK
-			</div>
-			<div class="info">
-				<button>INFO</button>
-			</div>
-			<div class="handshake">
-				<button>HANDSHAKE</button>
-			</div>
-		</div>
-		<div class="tile">
-			<div class="title">
-				Java Setup
-			</div>
-			<div class="thumb">
-				<img src="">
-			</div>
-			<div class="price">
-				295 DKK
-			</div>
-			<div class="info">
-				<button>INFO</button>
-			</div>
-			<div class="handshake">
-				<button>HANDSHAKE</button>
+			<div class="tile">
+				<div class="title">
+					Java Setup
+				</div>
+				<div class="thumb">
+					<img src="">
+				</div>
+				<div class="price">
+					295 DKK
+				</div>
+				<div class="info">
+					<button>INFO</button>
+				</div>
+				<div class="handshake">
+					<button>HANDSHAKE</button>
+				</div>
 			</div>
 		</div>
 	</div>
+	<div class="cleafix"></div>
 </div>
 <?php
 include "modules/modals/info.html";
