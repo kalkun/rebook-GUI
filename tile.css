@@ -3,7 +3,7 @@
 	display: table;
 	margin: auto;
 	text-align: center;
-	border-bottom: solid;
+	border-bottom-style: inset;
 	border-bottom-color: gray;
 	border-bottom-width: 1px;
 	padding-bottom: 30px;
@@ -60,5 +60,30 @@
 .tile .buttons>button:nth-child(2)
 {
 	background-color: green;
+	float: right;
+}
+
+.tile .info-field
+{
+	text-align: left;
+	overflow: hidden;
+	height: 0px;
+}
+
+.tile .info-field .field
+{
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: silver;
+	margin-top: 4px;
+
+}
+
+.tile .info-field .field .left
+{
+	float: left;
+}
+.tile .info-field .field .left
+{
 	float: right;
 }
