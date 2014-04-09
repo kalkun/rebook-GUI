@@ -1,0 +1,59 @@
+.tile-row
+{
+	display: table;
+	margin: auto;
+	text-align: center;
+	border-bottom: solid;
+	border-bottom-color: gray;
+	border-bottom-width: 1px;
+	padding-bottom: 30px;
+}
+
+.tile-row .tile
+{
+	float: left;
+	width: 300px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.tile .title
+{
+	color: gray;
+	font-size: 20px;
+	text-overflow:ellipsis;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.tile .thumb>img
+{
+	width: 100%;
+}
+
+.tile .price
+{
+	font-size: 30px;
+	color: gray;
+	padding: 5px;
+}
+
+.tile .buttons>button
+{
+	width: 45%;
+	height: 35px;
+	color: white;
+	font-weight: bold;
+}
+
+.tile .buttons>button:nth-child(1)
+{
+	background-color: blue;
+	float: left;
+}
+
+.tile .buttons>button:nth-child(2)
+{
+	background-color: green;
+	float: right;
+}

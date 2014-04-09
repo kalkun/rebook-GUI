@@ -3,3 +3,4 @@ phpmyadmin
 *.BASE.*
 *.LOCAL.*
 *.REMOTE.*
+*.orig
