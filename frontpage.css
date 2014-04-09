@@ -106,3 +106,44 @@ body
 	background-repeat:no-repeat;
 	padding-top: 50px;
 }
+	.banner .header
+	{
+		text-align: center;
+		font-size: 32px;
+	}
+
+	.banner .subheader
+	{
+		text-align: center;
+		font-size: 24px;
+	}
+
+	.banner .buttons
+	{
+		padding-top: 100px;
+		padding-left: 10%;
+		padding-right: 10%;
+		display: table;
+		margin: auto;
+	}
+
+		.banner .find
+		{
+			float: left;
+		}
+
+		.banner .sell
+		{
+			float: right;
+
+		}
+
+			.banner .find button
+			{
+				background-color: #04c;
+			}
+
+			.banner .sell button
+			{
+				background-color: #5bb75b;
+			}
