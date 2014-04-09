@@ -12,19 +12,86 @@ body
 	background-color: #414A4C;
 	padding-left: 50px;
 }
+	
+	.topbar .home 
+	{
+		display: inline;
+		height: 100%;
+	}
 
-.topbar .logo 
-{
-	background-image: url('resources/logo.ico');
-	width: 48px;
-	height: 100%;
-	float: left;
-}
+		.topbar .logo 
+		{
+			background-image: url('resources/logo.ico');
+			width: 48px;
+			height: 100%;
+			float: left;
+		}
 
-.topbar .brand 
-{
-	display: inline;
-	float: left;
-	margin-top: 12px;
-	margin-left: 10px;
-}
+		.topbar .brand 
+		{
+			display: inline;
+			float: left;
+			margin-top: 12px;
+			margin-left: 10px;
+		}
+
+	.topbar .find 
+	{
+		display: inline;
+		float: left;
+		margin-top: 12px;
+		margin-left: 50px;
+	}
+
+	.topbar .sell 
+	{
+		display: inline;
+		float: left;
+		margin-top: 12px;
+		margin-left: 50px;
+	}
+
+	.topbar .about 
+	{
+		display: inline;
+		float: left;
+		margin-top: 12px;
+		margin-left: 50px;
+	}
+
+	.topbar .bugs 
+	{
+		display: inline;
+		float: left;
+		margin-top: 12px;
+		margin-left: 50px;
+	}
+
+	.topbar .searchfield
+	{
+		display: inline;
+		float: left;
+		margin-top: 12px;
+		margin-left: 50px;
+		border-radius: 3px;
+		padding-left: 2px;
+	}
+
+	.topbar .user 
+	{
+		display: inline;
+		float: left;
+		margin-top: 12px;
+		margin-left: 50px;
+	}
+
+	.topbar .edit 
+	{
+		display: inline;
+		background-image: url('resources/edit.png');
+		width: 26px;
+		height: 26px;
+		float: left;
+		margin-top: 10px;
+		margin-left: 10px;
+	}
