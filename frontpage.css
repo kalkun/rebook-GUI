@@ -2,13 +2,13 @@ body
 {
 	margin-top: 0;
 	margin: auto;
+	width:1024px;
 	font-family: helvetica, georgia, times;
 }
 .topbar
 {
 	margin-top: 0;
 	border: 0;
-	width:1024px;
 	height: 48px;
 	background-color: #414A4C;
 	padding-left: 50px;
