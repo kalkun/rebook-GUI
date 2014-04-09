@@ -97,3 +97,11 @@ body
 		margin-top: 10px;
 		margin-left: 10px;
 	}
+
+.banner 
+{
+	height: 446px;
+	background-image: url('resources/img/baggrund.jpg');
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
