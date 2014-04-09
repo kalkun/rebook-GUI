@@ -13,6 +13,7 @@ body
 	height: 48px;
 	background-color: #414A4C;
 	padding-left: 50px;
+	color: white;
 }
 
 .topbar .home 
@@ -105,6 +106,7 @@ body
 	background-size: cover;
 	background-repeat:no-repeat;
 	padding-top: 50px;
+	color: white;
 }
 .banner>div
 {
@@ -154,7 +156,7 @@ body
 	width: 60%;
 	margin: auto;
 	background-color: #414A4C;
-	border-color: white;
+	border-color: grey;
 	border-top-style: solid;
 	border-right-style: solid;
 	border-left-style: solid;
