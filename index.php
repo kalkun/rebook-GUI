@@ -4,7 +4,7 @@
 <link rel="shortcut icon" href="/resources/icons/logo.ico"/>
 	<head>
 		<link rel="stylesheet" type="text/css" href="frontpage.css">
-		<link rel="stylesheet" type="text/css" href="modal.css">
+	<!--	<link rel="stylesheet" type="text/css" href="modal.css"> -->
 	</head>
 	<body>
 		<div class="topbar">
@@ -25,8 +25,8 @@
 			<div class="bugs">
 				BUGS
 			</div>
-			<div class="searchfield">
-			</div>
+			<input class="searchfield" type="text" placeholder="search">
+			</input>
 			<div class="user">
 			</div>
 			<div class="edit">
