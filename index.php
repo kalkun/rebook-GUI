@@ -43,25 +43,22 @@
 	<div class="subheader">
 		MADE FOR STUDENTS BY STUDENTS
 	</div>
-	<div class="price">
-		295 DKK
-	</div>
 	<div class="buttons">
-		<div>
-			<div id="sale">
+		<div class="find">
+			<div class="sale">
 				654 books for sale
 			</div>
-			<div class="find">
+			<button>
 				FIND BOOKS
-			</div>
+			</button>
 		</div>
-		<div>
-			<div id="sold">
+		<div class="sell">
+			<div class="sold">
 				1002 books sold
 			</div>
-			<div class="sell">
+			<button>
 				SELL BOOKS
-			</div>
+			</button>
 		</div>
 	</div>
 </div>
@@ -116,54 +113,7 @@
 <div class="cleafix"></div>
 <div class="tile-row">
 	<div class="tile">
-		<div class="title">
-			Java Setup
-		</div>
-		<div class="thumb">
-			<img src="resources/book.png">
-		</div>
-		<div class="price">
-			295 DKK
-		</div>
-		<div class="buttons">
-			<button>INFO</button>
-			<button>HANDSHAKE</button>
-		</div>
-	</div>
-	<div class="tile">
-		<div class="title">
-			Java Setup
-		</div>
-		<div class="thumb">
-			<img src="resources/book.png">
-		</div>
-		<div class="price">
-			295 DKK
-		</div>
-		<div class="buttons">
-			<button>INFO</button>
-			<button>HANDSHAKE</button>
-		</div>
-	</div>
-	<div class="tile">
-		<div class="title">
-			Java Setup
-		</div>
-		<div class="thumb">
-			<img src="resources/book.png">
-		</div>
-		<div class="price">
-			295 DKK
-		</div>
-		<div class="buttons">
-			<button>INFO</button>
-			<button>HANDSHAKE</button>
-		</div>
-	</div>
-</div>
-<div class="tile-row">
-	<div class="tile">
-		<div class="title">
+		<div class="title" title="Java Setup">
 			Java Setup
 		</div>
 		<div class="thumb">
@@ -211,7 +161,7 @@
 <div class="cleafix"></div>
 <div class="tile-row">
 	<div class="tile">
-		<div class="title">
+		<div class="title" title="Java Setup">
 			Java Setup
 		</div>
 		<div class="thumb">
