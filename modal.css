@@ -9,7 +9,88 @@
 }
 .modal .info-modal
 {
-	width: 30px;
+	width: 800px;
+	height: 600px;
+	background-color: white;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	margin-top: 150px;
+	position: absolute;
+}
+
+.modal-corner-close
+{
+	width: 40px;
+	height: 40px;
+	background-color: rgb(97, 97, 97);
+	position: relative;
+	top: -40px;
+	right: 0px;
+	cursor: pointer;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	position: absolute;
+}
+
+.modal-corner-close>div:nth-child(1)
+{
+	width: 6px;
+	height: 20px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	transform:rotate(45deg);
+	-ms-transform:rotate(45deg); /* IE 9 */
+	-webkit-transform:rotate(45deg); /* Opera, Chrome, and Safari */
+}
+.modal-corner-close>div:nth-child(2)
+{
+	width: 20px;
+	height: 6px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	transform:rotate(45deg);
+	-ms-transform:rotate(45deg); /* IE 9 */
+	-webkit-transform:rotate(45deg); /* Opera, Chrome, and Safari */
+}
+
+.modal-info-left
+{
+	float: left;
+	width: 400px;
+	height: 100%;
+}
+.modal-info-left .top
+{
 	height: 30px;
+	background-color: rgb(235, 235, 235);
+}
+.modal-info-left .top>div:nth-child(1)
+{
+	float: left;
+}
+.modal-info-left .top>div:nth-child(2)
+{
+	float: right;
+}
+.modal-info-right
+{
+	float: right;
+	width: 400px;
+	height: 100%;
 	background-color: green;
 }
