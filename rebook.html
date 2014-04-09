@@ -3,6 +3,7 @@
 <title>ReBook</title>
 <link rel="shortcut icon" href="/resources/icons/logo.ico"/>
 	<head>
+		<link rel="stylesheet" type="text/css" href="rebook.css">
 	</head>
 	<body>
 		<div class="topbar">
@@ -37,7 +38,7 @@
 			<div class="sell">
 			</div>
 		</div>
-		<div class="body"> /**
+		<div class="body"> 
 			<div class="tile">
 				<div class="title">
 				</div>
