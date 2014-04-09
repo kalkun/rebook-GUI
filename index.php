@@ -3,9 +3,9 @@
 <title>ReBook</title>
 <link rel="shortcut icon" href="/resources/icons/logo.ico"/>
 <head>
-	<link rel="stylesheet" type="text/css" href="frontpage.css">
-	<link rel="stylesheet" type="text/css" href="general.css">
-	<link rel="stylesheet" type="text/css" href="tile.css">
+	<link rel="stylesheet" type="text/css" href="css/frontpage/frontpage.css">
+	<link rel="stylesheet" type="text/css" href="css/frontpage/general.css">
+	<link rel="stylesheet" type="text/css" href="css/frontpage/tile.css">
 </head>
 <body>
 	<div class="topbar">
