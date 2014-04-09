@@ -211,7 +211,7 @@
 		</div>
 		<div class="buttons">
 			<button class="info-button">INFO</button>
-			<button>HANDSHAKE</button>
+			<button class="handshake-button">HANDSHAKE</button>
 		</div>
 		<div class="clearfix"></div>
 		<div class="info-field">
@@ -322,6 +322,15 @@
 				</div>
 			</div>
 		</div>
+		<div class="handshake-field">
+			<div>
+				<input type="text" class="subject" placeholder="Subject">
+				<textarea class="body" placeholder=""></textarea>
+				<div class="handbuttons">
+					<button>Send handshake</button>
+				</div>
+			</div>
+		</div>
 	</div>
 	<div class="tile">
 		<div class="title">
@@ -335,7 +344,7 @@
 		</div>
 		<div class="buttons">
 			<button class="info-button">INFO</button>
-			<button>HANDSHAKE</button>
+			<button class="handshake-button">HANDSHAKE</button>
 		</div>
 		<div class="clearfix"></div>
 		<div class="info-field">
@@ -443,6 +452,15 @@
 					<div class="right">
 						<a>Some link to sellers book</a>
 					</div>
+				</div>
+			</div>
+		</div>
+		<div class="handshake-field">
+			<div>
+				<input type="text" class="subject" placeholder="Subject">
+				<textarea class="body" placeholder=""></textarea>
+				<div class="handbuttons">
+					<button>Send handshake</button>
 				</div>
 			</div>
 		</div>
@@ -462,7 +480,7 @@
 		</div>
 		<div class="buttons">
 			<button class="info-button">INFO</button>
-			<button>HANDSHAKE</button>
+			<button class="handshake-button">HANDSHAKE</button>
 		</div>
 		<div class="clearfix"></div>
 		<div class="info-field">
@@ -573,6 +591,15 @@
 				</div>
 			</div>
 		</div>
+		<div class="handshake-field">
+			<div>
+				<input type="text" class="subject" placeholder="Subject">
+				<textarea class="body" placeholder=""></textarea>
+				<div class="handbuttons">
+					<button>Send handshake</button>
+				</div>
+			</div>
+		</div>
 	</div>
 	<div class="tile">
 		<div class="title">
@@ -586,7 +613,7 @@
 		</div>
 		<div class="buttons">
 			<button class="info-button">INFO</button>
-			<button>HANDSHAKE</button>
+			<button class="handshake-button">HANDSHAKE</button>
 		</div>
 		<div class="clearfix"></div>
 		<div class="info-field">
@@ -697,6 +724,15 @@
 				</div>
 			</div>
 		</div>
+		<div class="handshake-field">
+			<div>
+				<input type="text" class="subject" placeholder="Subject">
+				<textarea class="body" placeholder=""></textarea>
+				<div class="handbuttons">
+					<button>Send handshake</button>
+				</div>
+			</div>
+		</div>
 	</div>
 	<div class="tile">
 		<div class="title">
@@ -710,7 +746,7 @@
 		</div>
 		<div class="buttons">
 			<button class="info-button">INFO</button>
-			<button>HANDSHAKE</button>
+			<button class="handshake-button">HANDSHAKE</button>
 		</div>
 		<div class="clearfix"></div>
 		<div class="info-field">
@@ -818,6 +854,15 @@
 					<div class="right">
 						<a>Some link to sellers book</a>
 					</div>
+				</div>
+			</div>
+		</div>
+		<div class="handshake-field">
+			<div>
+				<input type="text" class="subject" placeholder="Subject">
+				<textarea class="body" placeholder=""></textarea>
+				<div class="handbuttons">
+					<button>Send handshake</button>
 				</div>
 			</div>
 		</div>
@@ -837,7 +882,7 @@
 		</div>
 		<div class="buttons">
 			<button class="info-button">INFO</button>
-			<button>HANDSHAKE</button>
+			<button class="handshake-button">HANDSHAKE</button>
 		</div>
 		<div class="clearfix"></div>
 		<div class="info-field">
@@ -948,6 +993,15 @@
 				</div>
 			</div>
 		</div>
+		<div class="handshake-field">
+			<div>
+				<input type="text" class="subject" placeholder="Subject">
+				<textarea class="body" placeholder=""></textarea>
+				<div class="handbuttons">
+					<button>Send handshake</button>
+				</div>
+			</div>
+		</div>
 	</div>
 	<div class="tile">
 		<div class="title">
@@ -961,7 +1015,7 @@
 		</div>
 		<div class="buttons">
 			<button class="info-button">INFO</button>
-			<button>HANDSHAKE</button>
+			<button class="handshake-button">HANDSHAKE</button>
 		</div>
 		<div class="clearfix"></div>
 		<div class="info-field">
@@ -1072,6 +1126,15 @@
 				</div>
 			</div>
 		</div>
+		<div class="handshake-field">
+			<div>
+				<input type="text" class="subject" placeholder="Subject">
+				<textarea class="body" placeholder=""></textarea>
+				<div class="handbuttons">
+					<button>Send handshake</button>
+				</div>
+			</div>
+		</div>
 	</div>
 	<div class="tile">
 		<div class="title">
@@ -1085,7 +1148,7 @@
 		</div>
 		<div class="buttons">
 			<button class="info-button">INFO</button>
-			<button>HANDSHAKE</button>
+			<button class="handshake-button">HANDSHAKE</button>
 		</div>
 		<div class="clearfix"></div>
 		<div class="info-field">
@@ -1193,6 +1256,15 @@
 					<div class="right">
 						<a>Some link to sellers book</a>
 					</div>
+				</div>
+			</div>
+		</div>
+		<div class="handshake-field">
+			<div>
+				<input type="text" class="subject" placeholder="Subject">
+				<textarea class="body" placeholder=""></textarea>
+				<div class="handbuttons">
+					<button>Send handshake</button>
 				</div>
 			</div>
 		</div>

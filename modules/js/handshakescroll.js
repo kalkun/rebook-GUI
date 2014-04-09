@@ -11,7 +11,7 @@ $(".handshake-button").click(function()
 		$(this).attr("shown", "true");
 		var newHeight = $($(handshakefield).children()[0]).height();
 		$(infofield).animate({height: 0}, 500);
-		$(handshakefield).animate({height: newHeight}, 500);
+		$(handshakefield).animate({height: newHeight}, 500, scrollToElem(this));
 	}
 	else
 	{

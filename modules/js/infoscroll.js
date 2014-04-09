@@ -7,7 +7,7 @@ $(".info-button").click(function()
 	{
 		$(this).attr("shown", "true");
 		var newHeight = $($(infofield).children()[0]).height();
-		$(infofield).animate({height: newHeight}, 500);
+		$(infofield).animate({height: newHeight}, 500, scrollToElem(this));
 	}
 	else
 	{
