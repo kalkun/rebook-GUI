@@ -1,4 +1,7 @@
 .topbar
 {
+	margin-top: 0;
 	width:1024px;
+	height: 24px;
+	background-color: #414A4C;
 }
