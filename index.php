@@ -37,16 +37,28 @@
 		</div>
 		<div class="banner">
 			<div class="header">
+				FIND AND SELL YOUR ACADEMIC BOOKS
 			</div>
 			<div class="subheader">
+				MADE FOR STUDENTS BY STUDENTS
 			</div>
-			<div id="sale">
-			</div>
-			<div class="find">
-			</div>
-			<div id="sold">
-			</div>
-			<div class="sell">
+			<div class="buttons">
+				<div>
+					<div id="sale">
+						654 books for sale
+					</div>
+					<div class="find">
+						FIND BOOKS
+					</div>
+				</div>
+				<div>
+					<div id="sold">
+						1002 books sold
+					</div>
+					<div class="sell">
+						SELL BOOKS
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="body"> 

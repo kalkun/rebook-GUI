@@ -100,8 +100,47 @@ body
 
 .banner 
 {
-	height: 446px;
+	height: 300px;
 	background-image: url('resources/img/baggrund.jpg');
-	background-size:100% 100%;
+	background-size: cover;
 	background-repeat:no-repeat;
+	padding-top: 50px;
 }
+	.banner .header
+	{
+		text-align: center;
+		font-size: 32px;
+	}
+
+	.banner .subheader
+	{
+		text-align: center;
+		font-size: 24px;
+	}
+
+	.banner .buttons
+	{
+		display: inline-block;
+	}
+
+		.banner .find
+		{
+			float: left;
+			background-color: #04c;
+		}
+
+		.banner .sell
+		{
+			float: left;
+			background-color: #51a351;
+		}
+
+		.banner #sale
+		{
+
+		}
+
+		.banner #sold
+		{
+
+		}
