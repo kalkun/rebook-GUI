@@ -37,28 +37,30 @@
 	</div>
 </div>
 <div class="banner">
-	<div class="header">
-		FIND AND SELL YOUR ACADEMIC BOOKS
-	</div>
-	<div class="subheader">
-		MADE FOR STUDENTS BY STUDENTS
-	</div>
-	<div class="buttons">
-		<div class="find">
-			<div class="sale">
-				654 books for sale
-			</div>
-			<button>
-				FIND BOOKS
-			</button>
+	<div>
+		<div class="header">
+			FIND AND SELL YOUR ACADEMIC BOOKS
 		</div>
-		<div class="sell">
-			<div class="sold">
-				1002 books sold
+		<div class="subheader">
+			MADE FOR STUDENTS BY STUDENTS
+		</div>
+		<div class="buttons">
+			<div class="find">
+				<div class="sale">
+					654 books for sale
+				</div>
+				<button>
+					FIND BOOKS
+				</button>
 			</div>
-			<button>
-				SELL BOOKS
-			</button>
+			<div class="sell">
+				<div class="sold">
+					1002 books sold
+				</div>
+				<button>
+					SELL BOOKS
+				</button>
+			</div>
 		</div>
 	</div>
 </div>
