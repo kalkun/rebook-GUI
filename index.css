@@ -20,15 +20,20 @@
 .tile .title
 {
 	color: gray;
-	font-size: 20px;
+	height: 35px;
+	font-size: 30px;
 	text-overflow:ellipsis;
-	margin-bottom: 20px;
+	overflow: hidden;
+	white-space: nowrap;
+	margin-bottom: 10px;
 	margin-top: 10px;
+	font-variant: small-caps;
 }
 
 .tile .thumb>img
 {
 	width: 100%;
+	cursor: pointer;
 }
 
 .tile .price
