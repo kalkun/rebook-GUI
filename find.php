@@ -38,5 +38,8 @@
 			FRENCH
 		</div>
 	</div>
+	<?php
+	include "modules/tiles.php";
+	?>
 </body>
 </html>
