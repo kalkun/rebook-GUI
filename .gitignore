@@ -1,1 +1,5 @@
 phpmyadmin
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*

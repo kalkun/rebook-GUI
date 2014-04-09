@@ -4,6 +4,7 @@
 <link rel="shortcut icon" href="/resources/icons/logo.ico"/>
 	<head>
 		<link rel="stylesheet" type="text/css" href="frontpage.css">
+		<link rel="stylesheet" type="text/css" href="modal.css">
 	</head>
 	<body>
 		<div class="topbar">
@@ -155,6 +156,8 @@
 				</div>
 			</div>
 		</div>
-
+		<?php
+		include "modules/modals/info.html";
+		?>
 	</body>
 </html>
