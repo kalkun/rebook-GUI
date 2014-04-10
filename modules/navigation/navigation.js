@@ -216,15 +216,31 @@ $(".site").mousedown(function()
 			switch(site)
 			{
 				case "/index":
-					rebook.navigation.pushHistory('/');
+					//rebook.navigation.pushHistory('/');
+					/*****************************************/
+					/**								 		**/
+					/**   DUMMY FUNCTION, only shows /index	**/
+					/**	  and hides /find statically 		**/
+					/**								 		**/
+					/*****************************************/
+					$('#index').attr('class', 'block');
+					$('#find').attr('class', 'hide');
+
 				break;
 
 				case "/find":
+					/*****************************************/
+					/**								 		**/
+					/**   DUMMY FUNCTION, only shows /find 	**/
+					/**	  and hides /index statically 		**/
+					/**								 		**/
+					/*****************************************/
 
+					$('#find').attr('class', 'block');
+					$('#index').attr('class', 'hide');
+					/*
 					$("#notifybook").addClass("hide");
-
 					$("#searchInput").val("");
-			
 					var res = rebook.find.searchQuery("", 1);
 					rebook.find.loadBooks(1, res.res);
 					rebook.navigation.pushHistory(site);
@@ -233,6 +249,7 @@ $(".site").mousedown(function()
 					{
 						$(this).addClass("hide");
 					});
+					*/
 				break;
 
 				case "/mybooks":
@@ -304,10 +321,12 @@ $(".site").mousedown(function()
 					{
 						if (site == "/find")
 						{
+							
+							/* UNCOMMENTED THE OLD	
 							$("#notifybook").addClass("hide");
-
 							rebook.navigation.loadFind();
 							$("#li" + this.divs[i]).attr("class", "active");
+							*/
 							break;
 						}
 						if (site == "/overview")

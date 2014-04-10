@@ -5,37 +5,42 @@
 	<?php
 		include "topbar.php";
 	?>
-<div class="banner">
-	<div>
-		<div class="header">
-			FIND AND SELL YOUR ACADEMIC BOOKS
-		</div>
-		<div class="subheader">
-			MADE FOR STUDENTS BY STUDENTS
-		</div>
-		<div class="buttons">
-			<div class="find">
-				<div class="sale">
-					654 books for sale
-				</div>
-				<button>
-					FIND BOOKS
-				</button>
+<div id="index" class="block">
+	<div class="banner">
+		<div>
+			<div class="header">
+				FIND AND SELL YOUR ACADEMIC BOOKS
 			</div>
-			<div class="sell">
-				<div class="sold">
-					1002 books sold
+			<div class="subheader">
+				MADE FOR STUDENTS BY STUDENTS
+			</div>
+			<div class="buttons">
+				<div class="find">
+					<div class="sale">
+						654 books for sale
+					</div>
+					<button>
+						FIND BOOKS
+					</button>
 				</div>
-				<button>
-					SELL BOOKS
-				</button>
+				<div class="sell">
+					<div class="sold">
+						1002 books sold
+					</div>
+					<button>
+						SELL BOOKS
+					</button>
+				</div>
 			</div>
 		</div>
 	</div>
+	<?php
+		include "modules/tiles.php";
+	?>
 </div>
-<?php
-	include "modules/tiles.php";
-?>
+	<?php
+		include "find.php";
+	?>
 
 <footer>
 	<?php

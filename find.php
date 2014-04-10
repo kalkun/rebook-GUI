@@ -31,7 +31,7 @@
 			FRENCH
 		</div>
 	</div>
-</div>
 <?php
 	include "modules/tiles.php";
 ?>
+</div>
