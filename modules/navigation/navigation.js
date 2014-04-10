@@ -6,6 +6,7 @@ function produceNavigation()
 	/**			Ignore key bindings for now									   **/
 	/**																		   **/
 	/****************************************************************************/
+	/*
 	$(document).keydown(function(e) 
 	{
 		if (!rebook.navigation.isFocus() )
@@ -145,7 +146,7 @@ function produceNavigation()
 			break;
 		}
 	}
-});
+}); 	*/
 $("li").mousedown(function()
 {
 	if ($($(this).parent()[0]).attr("class") === "nav nav-pills")
@@ -175,10 +176,11 @@ $("li").mousedown(function()
 		}	
 	}
 });
-$("body").mousedown(function()
+$(".site").mousedown(function()
 { 
 	console.log('hurray!')
 	var site = $(this).attr("data-site");
+	console.log(site)
 	if (site == '/index')
 	{
 		var logsite = '/'
@@ -194,11 +196,11 @@ $("body").mousedown(function()
 		{
 			if( $(this)[0].tagName == 'BUTTON')
 			{
-				rebook.extra.writeLog(logsite, 'navigation')
+				//rebook.extra.writeLog(logsite, 'navigation')
 			}
 			else 
 			{
-				rebook.extra.writeLog(logsite, 'navigation', 'menu');
+				//rebook.extra.writeLog(logsite, 'navigation', 'menu');
 			}
 
 			$.each($(".modal"), function()
@@ -206,76 +208,78 @@ $("body").mousedown(function()
 				$(this).modal("hide");
 			});
 
-			$(".collapse").collapse('hide');
-			rebook.navigation.hideAll();
+			//$(".collapse").collapse('hide');
+			//rebook.navigation.hideAll();
 
 			$("#" + site.replace("/", "")).attr("class", "block");
 
 			switch(site)
 			{
 				case "/index":
-				rebook.navigation.pushHistory('/');
+					rebook.navigation.pushHistory('/');
 				break;
 
 				case "/find":
 
-				$("#notifybook").addClass("hide");
+					$("#notifybook").addClass("hide");
 
-				$("#searchInput").val("");
-				var res = rebook.find.searchQuery("", 1);
-				rebook.find.loadBooks(1, res.res);
-				rebook.navigation.pushHistory(site);
-				$("#li" + site.replace("/", "")).attr("class", "active");
-				$.each($("#find").find(".sorts > i"), function()
-				{
-					$(this).addClass("hide");
-				});
+					$("#searchInput").val("");
+			
+					var res = rebook.find.searchQuery("", 1);
+					rebook.find.loadBooks(1, res.res);
+					rebook.navigation.pushHistory(site);
+					$("#li" + site.replace("/", "")).attr("class", "active");
+					$.each($("#find").find(".sorts > i"), function()
+					{
+						$(this).addClass("hide");
+					});
 				break;
 
 				case "/mybooks":
-				rebook.navigation.pushHistory(site);
-				rebook.mybooks.displayMyBooks(1);
-				$("#li" + site.replace("/", "")).attr("class", "active");
+					rebook.navigation.pushHistory(site);
+					rebook.mybooks.displayMyBooks(1);
+					$("#li" + site.replace("/", "")).attr("class", "active");
 				break;
 
 				case "/wtf":
-				rebook.navigation.pushHistory(site);
-				$("#li" + site.replace("/", "")).attr("class", "active")
-				$('.accordion-toggle:first').trigger('click')
+					rebook.navigation.pushHistory(site);
+					$("#li" + site.replace("/", "")).attr("class", "active")
+					$('.accordion-toggle:first').trigger('click')
 				break;
 
 				case "/overview":
-				rebook.overview.update();
-				rebook.navigation.pushHistory(site);
-				$("#li" + site.replace("/", "")).attr("class", "active");
+					rebook.overview.update();
+					rebook.navigation.pushHistory(site);
+					$("#li" + site.replace("/", "")).attr("class", "active");
 				break;
 
 				case "/settings":
-				rebook.settings.refreshUserStudies();
-				rebook.settings.setSettings();
-				rebook.navigation.pushHistory(site);
-				$("#li" + site.replace("/", "")).attr("class", "active");
+					rebook.settings.refreshUserStudies();
+					rebook.settings.setSettings();
+					rebook.navigation.pushHistory(site);
+					$("#li" + site.replace("/", "")).attr("class", "active");
 				break;
 
 				case "/messages":
-				rebook.navigation.pushHistory(site);
-				$("#li" + site.replace("/", "")).attr("class", "active");
+					rebook.navigation.pushHistory(site);
+					$("#li" + site.replace("/", "")).attr("class", "active");
 				break;
 
 				case "/wishlist":
-				rebook.wishlist.getWishList();
-				rebook.navigation.pushHistory(site);
-				$("#li" + site.replace("/", "")).attr("class", "active");
+					rebook.wishlist.getWishList();
+					rebook.navigation.pushHistory(site);
+					$("#li" + site.replace("/", "")).attr("class", "active");
+				break;
 
 				case "/sell":
-				rebook.sell.displayInstituteSell();
-				rebook.navigation.pushHistory(site);
-				$("#li" + site.replace("/", "")).attr("class", "active");
+					rebook.sell.displayInstituteSell();
+					rebook.navigation.pushHistory(site);
+					$("#li" + site.replace("/", "")).attr("class", "active");
 				break;
 
 				default: 
-				rebook.navigation.pushHistory(site);
-				$("#li" + site.replace("/", "")).attr("class", "active");
+					rebook.navigation.pushHistory(site);
+					$("#li" + site.replace("/", "")).attr("class", "active");
 				break;
 			}
 		}
