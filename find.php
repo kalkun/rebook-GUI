@@ -1,11 +1,4 @@
-<?php
-	include "head.php";
-?>
-
-<body>
-	<?php
-		include "topbar.php";
-	?>
+<div id="find" class="hide">
 	<div class="banner">
 		<div>
 			<div class="header">
@@ -38,8 +31,7 @@
 			FRENCH
 		</div>
 	</div>
-	<?php
+</div>
+<?php
 	include "modules/tiles.php";
-	?>
-</body>
-</html>
+?>

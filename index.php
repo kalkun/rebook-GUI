@@ -43,7 +43,7 @@
 	?>
 </footer>
 <?php
-include "modules/modals/info.html";
+	include "modules/modals/info.html";
 ?>
 </body>
 </html>

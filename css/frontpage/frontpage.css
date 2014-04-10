@@ -28,6 +28,8 @@ body
 	background-image: url('../../resources/logo.ico');
 	width: 48px;
 	height: 100%;
+	background-repeat:no-repeat;
+	background-size: cover;
 	float: left;
 }
 

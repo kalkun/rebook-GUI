@@ -20,3 +20,13 @@ textarea
 	resize: none;
 	padding: 0px;
 }
+
+.hide
+{
+	display: none;
+}
+
+.topbar .site:hover
+{
+	cursor: pointer;
+}
